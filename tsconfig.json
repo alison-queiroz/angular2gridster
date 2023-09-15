@@ -20,6 +20,10 @@
     "paths": {
       "angular2gridsterv3": [
         "dist/angular2gridsterv3"
+      ],
+      "angular2gridsterv4": [
+        "dist/angular2gridsterv4/angular2gridsterv4",
+        "dist/angular2gridsterv4"
       ]
     }
   }
