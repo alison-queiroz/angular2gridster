@@ -1,17 +1,17 @@
-# angular2gridster
+# angular2gridsterv3
 
-[![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)
+[![npm version](https://badge.fury.io/js/angular2gridsterv3.svg)](https://badge.fury.io/js/angular2gridsterv3)
 
-Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js). [Demo](https://swiety85.github.io/angular2gridster/).
+Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js). [Demo](https://swiety85.github.io/angular2gridsterv3/).
 
-1. [Getting started](https://github.com/swiety85/angular2gridster/wiki/Getting-started)
-2. [What is Angular2gridster and why to use it?](https://github.com/swiety85/angular2gridster/wiki)
-3. [API Documentation](https://github.com/swiety85/angular2gridster/wiki/API-Documentation)
-4. [Roadmap](https://github.com/swiety85/angular2gridster/wiki/Roadmap)
+1. [Getting started](https://github.com/swiety85/angular2gridsterv3/wiki/Getting-started)
+2. [What is angular2gridsterv3 and why to use it?](https://github.com/swiety85/angular2gridsterv3/wiki)
+3. [API Documentation](https://github.com/swiety85/angular2gridsterv3/wiki/API-Documentation)
+4. [Roadmap](https://github.com/swiety85/angular2gridsterv3/wiki/Roadmap)
 
-More comprehensive documentation is available in [Wiki](https://github.com/swiety85/angular2gridster/wiki).
+More comprehensive documentation is available in [Wiki](https://github.com/swiety85/angular2gridsterv3/wiki).
 
-Development progress can be tracked in [Milestones](https://github.com/swiety85/angular2gridster/milestones) and in [Project board](https://github.com/swiety85/angular2gridster/projects/1).
+Development progress can be tracked in [Milestones](https://github.com/swiety85/angular2gridsterv3/milestones) and in [Project board](https://github.com/swiety85/angular2gridsterv3/projects/1).
 
 ## Versions:
 
@@ -31,14 +31,14 @@ Versions **1.x** and **0.x** works only with **Angular 4.x**, but the newest sta
 ## Installation
 
 ```shell
-npm install angular2gridster
+npm install angular2gridsterv3
 ```
 
 Once installed you need to import our module:
 
 ```js
 ...
-import { GridsterModule } from 'angular2gridster';
+import { GridsterModule } from 'angular2gridsterv3';
 
 @NgModule({
   declarations: [
@@ -58,7 +58,7 @@ The example it imports in AppModule, but it could also be imported in any other 
 
 ### Additional steps for System.js
 
-To make Angular2gridster works with System.js you need to provide dedicated configuration in `systemjs.config.js`.
+To make angular2gridsterv3 works with System.js you need to provide dedicated configuration in `systemjs.config.js`.
 It requires change in `map` object and 'packages' as follows:
 
 ```js
@@ -66,12 +66,12 @@ System.config({
     map: {
         // ...
         rxjs: 'node_modules/rxjs',
-        angular2gridster: 'node_modules/angular2gridster',
+        angular2gridsterv3: 'node_modules/angular2gridsterv3',
     },
     packages: {
         // ...
         rxjs: {defaultExtension: 'js'},
-        angular2gridster: {main: 'dist/index.js', defaultExtension: 'js'},
+        angular2gridsterv3: {main: 'dist/index.js', defaultExtension: 'js'},
     },
 });
 ```
@@ -185,7 +185,7 @@ Go to: http://localhost:4200/
 If somebody will have compilation problems please add an issue (if not yet created). I will try to fix it as soon as possible.
 Angular compiler has still some issues opened and it is changing frequently.
 
-As a temporary solution copy files from `/projects/angular2gridster/src/lib` folder to dedicated folder in your project.
+As a temporary solution copy files from `/projects/angular2gridsterv3/src/lib` folder to dedicated folder in your project.
 
 ## Issues
 

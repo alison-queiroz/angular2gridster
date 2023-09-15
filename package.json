@@ -1,11 +1,11 @@
 {
-  "name": "angular2gridster",
+  "name": "angular2gridsterv3",
   "version": "13.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build angular2gridster --configuration production",
+    "build": "ng build angular2gridsterv3 --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -14,12 +14,12 @@
     "release-minor": "standard-version -r minor",
     "release-fix": "standard-version -r patch",
     "release-dry": "standard-version  --dry-run -r patch",
-    "publish-lib": "npm run build && node ./updatePackageJson.js && cp -rf ./README.md ./dist/angular2gridster && cd ./dist/angular2gridster && npm publish",
-    "update-demo": "npm run build && ng build --configuration production --base-href /angular2gridster/ && gh-pages -d dist/gridster-demo"
+    "publish-lib": "npm run build && node ./updatePackageJson.js && cp -rf ./README.md ./dist/angular2gridsterv3 && cd ./dist/angular2gridsterv3 && npm publish",
+    "update-demo": "npm run build && ng build --configuration production --base-href /angular2gridsterv3/ && gh-pages -d dist/gridster-demo"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/swiety85/angular2gridster.git"
+    "url": "git+ssh://git@github.com/swiety85/angular2gridsterv3.git"
   },
   "author": {
     "name": "Damian Wajdlich",
@@ -36,9 +36,9 @@
     "widgets"
   ],
   "bugs": {
-    "url": "https://github.com/swiety85/angular2gridster/issues"
+    "url": "https://github.com/swiety85/angular2gridsterv3/issues"
   },
-  "homepage": "https://github.com/swiety85/angular2gridster#readme",
+  "homepage": "https://github.com/swiety85/angular2gridsterv3#readme",
   "dependencies": {
     "@angular/common": "^13.4.0",
     "@angular/core": "^13.4.0",

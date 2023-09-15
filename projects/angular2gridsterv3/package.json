@@ -1,5 +1,5 @@
 {
-  "name": "angular2gridster",
+  "name": "angular2gridsterv3",
   "peerDependencies": {
     "@angular/common": "^13.4.0",
     "@angular/core": "^13.4.0"

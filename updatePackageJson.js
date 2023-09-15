@@ -2,7 +2,7 @@ const editJsonFile = require("edit-json-file");
 
 // If the file doesn't exist, the content will be an empty object by default.
 const sourceFile = editJsonFile(`${__dirname}/package.json`);
-const targerFile = editJsonFile(`${__dirname}/dist/angular2gridster/package.json`);
+const targerFile = editJsonFile(`${__dirname}/dist/angular2gridsterv3/package.json`);
 
 targerFile
     .set('version', sourceFile.get('version'))

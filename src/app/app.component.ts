@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
-import { GridsterComponent, IGridsterOptions, IGridsterDraggableOptions } from 'projects/angular2gridster/src/public_api';
+import { GridsterComponent, IGridsterOptions, IGridsterDraggableOptions } from 'projects/angular2gridsterv3/src/public_api';
 
 @Component({
     selector: 'demo-root',
@@ -100,7 +100,7 @@ export class AppComponent implements OnInit {
     gridsterDraggableOptions: IGridsterDraggableOptions = {
         handlerClass: 'panel-heading'
     };
-    title = 'Angular2Gridster';
+    title = 'angular2gridsterv3';
     widgetsCopy = [];
     widgets: Array<any> = [
         {

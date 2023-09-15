@@ -110,31 +110,31 @@
         }
       }
     },
-    "angular2gridster": {
-      "root": "projects/angular2gridster",
-      "sourceRoot": "projects/angular2gridster/src",
+    "angular2gridsterv3": {
+      "root": "projects/angular2gridsterv3",
+      "sourceRoot": "projects/angular2gridsterv3/src",
       "projectType": "library",
       "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/angular2gridster/tsconfig.lib.json",
-            "project": "projects/angular2gridster/ng-package.json"
+            "tsConfig": "projects/angular2gridsterv3/tsconfig.lib.json",
+            "project": "projects/angular2gridsterv3/ng-package.json"
           },
           "configurations": {
             "production": {
-              "project": "projects/angular2gridster/ng-package.prod.json"
-            ,              "tsConfig": "projects/angular2gridster/tsconfig.lib.prod.json"
+              "project": "projects/angular2gridsterv3/ng-package.prod.json"
+            ,              "tsConfig": "projects/angular2gridsterv3/tsconfig.lib.prod.json"
 }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular2gridster/src/test.ts",
-            "tsConfig": "projects/angular2gridster/tsconfig.spec.json",
-            "karmaConfig": "projects/angular2gridster/karma.conf.js"
+            "main": "projects/angular2gridsterv3/src/test.ts",
+            "tsConfig": "projects/angular2gridsterv3/tsconfig.spec.json",
+            "karmaConfig": "projects/angular2gridsterv3/karma.conf.js"
           }
         }
       }

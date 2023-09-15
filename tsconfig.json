@@ -18,8 +18,8 @@
       "dom"
     ],
     "paths": {
-      "angular2gridster": [
-        "dist/angular2gridster"
+      "angular2gridsterv3": [
+        "dist/angular2gridsterv3"
       ]
     }
   }
