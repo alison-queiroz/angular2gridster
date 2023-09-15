@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
-import { GridsterComponent, IGridsterOptions, IGridsterDraggableOptions } from 'angular2gridster';
+import { GridsterComponent, IGridsterOptions, IGridsterDraggableOptions } from 'projects/angular2gridster/src/public_api';
 
 @Component({
     selector: 'demo-root',
