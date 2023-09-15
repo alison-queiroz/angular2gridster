@@ -2,16 +2,16 @@
 
 [![npm version](https://badge.fury.io/js/angular2gridsterv3.svg)](https://badge.fury.io/js/angular2gridsterv3)
 
-Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js). [Demo](https://swiety85.github.io/angular2gridsterv3/).
+Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js). [Demo](https://swiety85.github.io/angular2gridster/).
 
-1. [Getting started](https://github.com/swiety85/angular2gridsterv3/wiki/Getting-started)
-2. [What is angular2gridsterv3 and why to use it?](https://github.com/swiety85/angular2gridsterv3/wiki)
-3. [API Documentation](https://github.com/swiety85/angular2gridsterv3/wiki/API-Documentation)
-4. [Roadmap](https://github.com/swiety85/angular2gridsterv3/wiki/Roadmap)
+1. [Getting started](https://github.com/alison-queiroz/angular2gridsterv3/wiki/Getting-started)
+2. [What is angular2gridsterv3 and why to use it?](https://github.com/alison-queiroz/angular2gridsterv3/wiki)
+3. [API Documentation](https://github.com/alison-queiroz/angular2gridsterv3/wiki/API-Documentation)
+4. [Roadmap](https://github.com/alison-queiroz/angular2gridsterv3/wiki/Roadmap)
 
-More comprehensive documentation is available in [Wiki](https://github.com/swiety85/angular2gridsterv3/wiki).
+More comprehensive documentation is available in [Wiki](https://github.com/alison-queiroz/angular2gridsterv3/wiki).
 
-Development progress can be tracked in [Milestones](https://github.com/swiety85/angular2gridsterv3/milestones) and in [Project board](https://github.com/swiety85/angular2gridsterv3/projects/1).
+Development progress can be tracked in [Milestones](https://github.com/alison-queiroz/angular2gridsterv3/milestones) and in [Project board](https://github.com/alison-queiroz/angular2gridsterv3/projects/1).
 
 ## Versions:
 
